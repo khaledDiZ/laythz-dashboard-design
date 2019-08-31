@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.container{
+    display: flex;
+}
+
+.main{
+    background-color: #fff;
+    width: 25vw ;
+    height: 97vh;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.dash{
+    border-radius: 12px;
+    margin: 10px;
+    height: 97vh;
+    width: 100vw;
+    background: url(./pink-circle-clip-art-at-clker-com-vector-clip-art-online-royalty-g9CJsb-clipart-600x600.png);
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.nav{
+    display: flex;
+    justify-content: center
+}
+
+.nav-container{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 20px
+}
+
+.btn{
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 90px;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.active{
+    text-align: center;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 12px 11px 39px rgba(0,0,0,0.3);
+    
+}
+
+.dash-container{
+    display: flex
+}
+
+.first-col{
+    width: 25vw;
+    margin-left: 85px;
+    margin-top: 60px;
+
+}
+.headline{
+    margin-bottom: 30px;
+}
+
+.price-card{
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to bottom,#FFAFBD , #ffc3a0 );
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px rgba(189, 148, 148, 0.5);
+    border-right: 40px solid rgb(0, 0, 0, 0.7)
+}
+/* .second-col{
+    width: 50vw;
+} */
+
+
+
+
+
